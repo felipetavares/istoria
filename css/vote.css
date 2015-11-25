@@ -1,0 +1,132 @@
+.ist-box {
+  width: 242.66px;
+  min-height: 200px;
+  margin-left: 12px;
+  margin-top: 12px;
+  float: left;
+  background: #eee;
+  box-shadow: 0 0 2px #888;
+  padding: 4px;
+}
+
+.clear {
+  clear: both;
+}
+
+.ist-hidden {
+  display: none;
+}
+
+.ist-desc-box {
+  position: relative;
+  background: #48f;
+  background: linear-gradient(to top, #48f, #8cf);
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 #666;
+  padding: 12px;
+  width: 512px;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
+  display: none;
+}
+
+.ist-desc-cont {
+  width: 100%;
+  display: none;
+  margin-top: 32px;
+}
+
+.ist-desc-box>.arrow-center {
+  position: absolute;
+  top: -32px;
+  width: 64px;
+  height: 32px;
+  left: -32px;
+  margin-left: 50%;
+}
+
+.ist-vote-article {
+  margin: 0;
+  background: #aea;
+  background: linear-gradient(to top, #aea, #afa);
+  padding: 6px;
+  box-shadow: 0 0 2px 0 #666;
+
+  color: black;
+
+  border-radius: 8px;
+
+  margin-bottom: 1cm;
+
+  cursor: pointer;
+}
+
+.ist-vote-main {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.ist-bt-vote-up {
+  background-color: green;
+  background-image: url(../img/positive.png);
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 8px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  box-shadow: 0 0 2px black inset;
+}
+
+.ist-bt-vote-down {
+  background-color: red;
+  background-image: url(../img/negative.png);
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 8px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  box-shadow: 0 0 2px black inset;
+}
+
+.ist-article-desc {
+  width: 100%;
+  text-align: center;
+}
+
+.ist-article-desc>p {
+  color: black;
+  margin: 1em;
+  text-align: justify;
+}
+
+.ist-article-link {
+  padding: 2px;
+  text-decoration: none;
+  background: #aea;
+  background: linear-gradient(to top, #aea, #afa);
+  border-radius: 4px;
+  color: black;
+  border: 1px solid white;
+}
+
+.ist-article-link-2 {
+  padding: 2px;
+  text-decoration: none;
+  background: #48f;
+  background: linear-gradient(to top, #48f, #8cf);
+  border-radius: 4px;
+  color: black;
+  border: 1px solid #444;
+  cursor: pointer;
+}

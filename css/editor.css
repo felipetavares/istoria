@@ -1,0 +1,52 @@
+.ist-editor {
+  border: 1px dashed white;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.ist-editor input {
+  width: 94%;
+  margin: 2%;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+.ist-editor textarea {
+  height: 20em;
+  width: 94%;
+  margin: 2%;
+  border-radius: 4px;
+  border: none;
+  resize: none;
+}
+
+.ist-pesquisa {
+  width: 94%;
+  margin: 2%;
+}
+
+.ist-pesquisa input {
+  font-size: 1em;
+  width: 100%;
+}
+
+.ist-vote-main {
+  overflow: auto;
+  height: 100%;
+}
+
+.ist-relacionados div {
+  background: #3080ff;
+  color: black;
+  margin: 2%;
+  width: calc(94%-12px);
+  padding: 6px;
+  border-radius: 4px;
+  cursor: no-drop;
+}
+
+.ist-relacionados {
+  margin: 1px;
+}

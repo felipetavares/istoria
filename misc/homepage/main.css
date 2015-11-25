@@ -1,0 +1,159 @@
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+}
+
+main {
+  position: absolute;
+  /* Height of the bar */
+  top: 48px;
+  bottom: 0;
+  width: 100%;
+}
+
+.ist-barra {
+  height: 48px;
+  width: 100%;
+  background: #56d;
+}
+
+.ist-barra-lateral {
+  position: absolute;
+  background: #777;
+  width: 256px;
+  right: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.ist-visualizacao {
+  box-shadow: 6px 0 12px -6px #444;
+  position: absolute;
+  background: #ddd;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+}
+
+.ist-searchbar {
+  background: white;
+  border-radius: 4px;
+  padding: 6px;
+  width: 400px;
+  border: none;
+  margin-left: 194px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.ist-center {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.ist-resultados {
+
+}
+
+.ist-resultado {
+  background: white;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 4px;
+}
+
+.ist-revisao {
+  padding: 2px;
+  background: orange;
+  border-radius: 2px;
+}
+
+.ist-visualizar {
+  float: right;
+  cursor: pointer;
+}
+
+.ist-botao-cabecalho {
+
+}
+
+.ist-barra-conteudo {
+
+}
+
+.ist-botao-acao {
+  display: inline-block;
+  box-shadow: 0 0 4px 0 #444;
+  background: white;
+  border-radius: 4px;
+  margin: 6px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  float: left;
+  cursor: pointer;
+}
+
+.ist-botao-acao:hover {
+  background: #ddd;
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+/* Remove all the focus */
+*:focus {
+    outline: 0;
+}
+
+.ist-barra-conteudo input {
+  background: white;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 6px;
+  border: none;
+  width: calc(100% - 24px);
+  text-align: center;
+}
+
+.ist-barra-conteudo textarea {
+  height: 20em;
+  padding: 6px;
+  margin: 6px;
+  border: none;
+  width: calc(100% - 24px);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.ist-barra-conteudo h3 {
+  text-align: center;
+  color: #eee;
+}
+
+.ist-barra-conteudo .relacionados {
+
+}
+
+.relacionados .relacionado {
+  background: #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 6px;
+  border: none;
+  width: calc(100% - 24px);
+  text-align: center;
+  font-weight: bold;
+}

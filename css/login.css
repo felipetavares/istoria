@@ -1,0 +1,59 @@
+.caixa-login {
+  position: relative;
+  background: #48f;
+  background: linear-gradient(to top, #48f, #8cf);
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 #666;
+  padding: 12px;
+  width: 512px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-size: 0.75em;
+}
+
+.caixa-login>.arrow-center {
+  position: absolute;
+  top: -32px;
+  width: 64px;
+  height: 32px;
+  left: -32px;
+  margin-left: 50%;
+}
+
+.caixa-login>.arrow-right {
+  position: absolute;
+  top: -32px;
+  width: 64px;
+  height: 32px;
+  right: 10px;
+}
+
+.caixa-login>form>div>label {
+  display: block;
+  margin: 10px;
+  width: 92px;
+  float: left;
+  color: black;
+}
+
+#ist-login {
+  position: absolute;
+  right: 24px;
+  top: 0px;
+  cursor: pointer;
+}
+
+#ist-login:hover {
+  border-radius: 24px;
+  background: rgba(255,0,128,0.1);
+}
+
+#entrar-dialogo {
+  display: none;
+  position: absolute;
+
+  top: 36px;
+  right: 2px;
+}

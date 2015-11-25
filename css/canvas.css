@@ -1,0 +1,38 @@
+#canvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.nome {
+  display: none;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 6px;
+  position: absolute;
+  padding: 4px;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.nada-carregado {
+  text-align: center;
+  padding: 6px 0;
+  width: 100%;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+  display: none;
+  position: absolute;
+  background: #90006a;
+  border-radius: 4px;
+}
+
+.ist-visualizacao {
+  white-space: nowrap;
+  overflow: hidden;
+}

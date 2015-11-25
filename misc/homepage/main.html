@@ -1,0 +1,97 @@
+<!doctype HTML>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="sidebar.js"></script>
+    <style type="text/css">
+      @import url(main.css);
+    </style>
+  </head>
+
+  <body>
+    <div id="dados-edit">
+      <input type="text">
+      <textarea></textarea>
+
+      <h3>
+        <img src="related.png" width=20>
+      </h3>
+
+      <input type="text">
+
+      <div class="relacionados">
+        <div class="relacionado">
+          Fato N°1
+        </div>
+        <div class="relacionado">
+          Fato N°2
+        </div>
+      </div>
+    </div>
+
+    <div class="ist-barra"></div>
+
+    <main>
+      <div class="ist-barra-lateral">
+        <div class="ist-barra-cabecalho">
+          <div onclick="sidebar.close()" class="ist-botao-acao"><img src="close.png" width=20></div>
+          <div  onclick="sidebar.expand()" class="ist-botao-acao right"><img src="expand.png" width=20></div>
+          <div class="clear"></div>
+        </div>
+        <div class="ist-barra-conteudo">
+        </div>
+      </div>
+      <div class="ist-visualizacao">
+        <div class="ist-center">
+          <input class="ist-searchbar" type="text">
+
+          <div class="ist-resultados">
+            <div class="ist-resultado">
+              Número 1 <span class="ist-revisao">edição em revisão</span>
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+            <div class="ist-resultado">
+              Número 2
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+            <div class="ist-resultado">
+              Número 3
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+            <div class="ist-resultado">
+              Número 4 <span class="ist-revisao">edição em revisão</span>
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+            <div class="ist-resultado">
+              Número 1 <span class="ist-revisao">edição em revisão</span>
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+            <div class="ist-resultado">
+              Número 2
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+            <div class="ist-resultado">
+              Número 3
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+            <div class="ist-resultado">
+              Número 4 <span class="ist-revisao">edição em revisão</span>
+              <img onclick="sidebar.open('edit')" class="ist-visualizar" src="eye.png" width=20>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
